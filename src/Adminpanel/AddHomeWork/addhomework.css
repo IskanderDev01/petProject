@@ -1,0 +1,86 @@
+.hwTabel{
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    padding: 15px;
+    color: white;
+}
+
+.hwTabel_header{
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hwTabel_infos{
+    flex-basis: 80%;
+    display: grid;
+    grid-template-columns: 5% 25% 25% 25% 20%;
+}
+
+.hwTabel_options{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hwTabel_options div{
+    padding: 0px 10px;
+}
+
+.hwTabel_body{
+    border-top: 1px solid #6c757d;
+    padding-top: 1.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(220, 220, 220);
+}
+
+.hwTabel_info{
+    flex-basis: 80%;
+    display: grid;
+    grid-template-columns: 5% 25% 25% 25% 20%;
+}
+
+.hwTabel_option{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hwTabel_option div{
+    text-align: center;
+    padding: 5px 5px;
+    width: 50px;
+    border-radius: 0.25rem;
+    background-color: rgb(220, 220, 220);
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.hwTabel_option div:first-child{
+    color: #2290d9;
+}
+.hwTabel_option div:last-child{
+    color: #d22929;
+}
+
+.hwAdd_open{
+    display: block;
+}
+.hwAdd_close{
+    display: none;
+}
+.hwEdit_open{
+    display: block;
+}
+.hwEdit_close{
+    display: none;
+}

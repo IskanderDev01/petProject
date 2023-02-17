@@ -1,0 +1,131 @@
+.monthTable{
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    padding: 15px;
+    color: white;
+    margin-bottom: 50px;
+}
+.monthTable_th{
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.month-names{
+    display: flex;
+}
+.month-names div:last-child{
+    padding: 0px 25px;
+}
+.month-options{
+    font-size: 14px;
+    display: flex;
+}
+.month-options div:first-child{
+    padding: 0px 25px;
+}
+.monthTable_tr{
+    border-top: 1px solid #6c757d;
+    padding-top: 1.5rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(220, 220, 220);
+}
+.month-name{
+    display: flex;
+}
+.month-name div:last-child{
+    padding: 0px 33px;
+}
+
+
+.month-option{
+    display: grid;
+    grid-template-columns: 95px 45px;
+}
+.month-option div{
+    text-align: center;
+    padding: 5px 5px;
+    width: 50px;
+    border-radius: 0.25rem;
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+.month-option div:first-child{
+    color: #2290d9;
+}
+.month-option div:last-child{
+    color: #d22929;
+}
+
+.monthsBlock_open{
+    display: block;
+}
+.monthsBlock_close{
+    display: none;
+}
+
+.monthTable-add form{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.monthTable-add form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+.monthTable-add input{
+    padding: 0px 10px;
+    display: block;
+    border: 1px solid #6c757d;
+    width: 20rem;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+}
+.monthTable-add button{
+    background-color: #2290d9;
+    color: rgb(220, 220, 220);
+    font-size: 14px;
+    border: 1px solid #6c757d;
+    width: 8rem;
+    padding: 10px 5px;
+    border-radius: 0.25rem;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .monthTable{
+        font-size: 14px;
+        padding: 0px;
+    }
+    .monthTable_th{
+        padding: 10px;
+    }
+    .monthTable_tr{
+        padding: 10px;
+    }
+.month-names div:last-child{
+    padding-left: 25px;
+}
+.month-options div:first-child{
+    padding-right: 25px;
+}
+.month-name div:last-child{
+    padding-left: 33px;
+}
+}
+

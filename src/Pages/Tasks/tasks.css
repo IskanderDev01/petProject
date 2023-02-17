@@ -1,0 +1,50 @@
+.contentsTask{
+    padding: 20px 5px;
+    text-align: start;
+}
+.contentsTask .tasksTitle{
+    font-size: 20px;
+    padding: 5px;
+}
+.homeTasks_date{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.homeTasks_date div{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.homeTasks_date div span{
+    font-weight: 400;    
+}
+
+.tasksResponse{
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.tasksResponse div{
+    font-size: 18px;
+}
+.tasksResponse form{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.tasksResponse form label{
+    padding: 10px 0px;
+}
+.tasksResponse form input{
+    border: 1px solid rgb(82, 82, 82);
+    width: 20rem;
+    padding: 10px 10px;
+    border-radius: 0.25rem;
+    margin-bottom: 5px;
+}
+.tasksResponse form button{
+    margin-top: 15px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 0.25rem;
+    background-color: rgb(220, 220, 220);
+}

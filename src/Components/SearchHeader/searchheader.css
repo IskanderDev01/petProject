@@ -1,0 +1,170 @@
+.search-sidebar{
+    z-index: 9999;
+    font-family: sans-serif;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    border-bottom: 1px solid #4b545c;
+}
+/* ================================SIDEBAR======================== */
+.sidebarOpen{
+    display: block;
+}
+.sidebarClose{
+    display: none;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sidebar_block{
+    width: 250px;
+    height: 120rem;
+    background-color: #343a40;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255,255,255,.8);
+}
+.sidebar-btn{
+    padding: 0px 15px;
+    color: rgba(255,255,255,.75);
+    font-size: 24px;
+    transition: 0.3s;
+}
+.sidebar-btn:hover{
+    color: white;
+}
+.adminLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 13px 8px;
+    color: rgba(255,255,255,.8);
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid #4b545c;
+    margin-top: 169.6%;
+}
+.adminLogo img{
+    margin-left: 8px;
+    margin-right: 16px;
+    width: 33px;
+    height: 33px;
+}
+
+.sidebar_navs{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 8px;
+}
+.sidebar_navs .user_account{
+    width: 100%;
+    margin: 16px 0px;
+    padding: 0px 0px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #4b545c;
+}
+.sidebar_navs .user_account img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+.sidebar_navs .user_account span{
+    cursor: pointer;
+    padding: 5px 5px 5px 10px;
+    transition: 0.1s;
+}
+.sidebar_navs .user_account span:hover{
+    color: #007bff;
+}
+.sidebar_nav{
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 16px;
+    color: #c2c7d0;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.sidebar_nav:hover{
+    background-color: #464e56;
+    color: rgba(255,255,255,.8);
+}
+
+
+/* ================================SEARCH========================= */
+.search{
+    display: none;
+}
+.searchOpen{
+    display: block;
+}
+.searchClose{
+    display: none;
+}
+.search_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.search_input input{
+    padding: 4px 8px;
+    font-size: .875rem;
+    line-height: 1.5;
+    height: 30px;
+    background-color: #3f474e;
+    border: 1px solid #56606a;
+    color: #96a4b1;
+}
+.search_input input:hover{
+    border: 1px solid #606b75;
+    background-color: #424a52;
+    
+}
+.input-buttons{
+    padding: 0.5px;
+    border: 1px solid #56606a;
+    background-color: #3f474e;
+    color: rgba(255,255,255,.75);
+}
+
+.input-buttons button{
+    padding: 4px 8px;
+    font-size: 16px;
+}
+.serch-icon-btn{
+    display: none;
+}
+.search-icon-btn-open{
+    font-size: 20px;
+    color: rgba(255,255,255,.75);
+    transition: 0.3s;
+}
+.search-icon-btn-open:hover {
+    color: white;
+}
+
+a{
+    display: block;
+    width: 100%;
+}

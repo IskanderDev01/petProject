@@ -1,0 +1,151 @@
+.userTable{
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    padding: 15px;
+    color: white;
+}
+
+.users_table_header{
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.users_infos{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.users-options{
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 100px 50px;
+}
+
+.users_table{
+    border-top: 1px solid #6c757d;
+    padding-top: 1.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(220, 220, 220);
+}
+
+.users_info{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.users-option{
+    display: grid;
+    grid-template-columns: 95px 45px;
+}
+.users-option div{
+    text-align: center;
+    padding: 5px 5px;
+    width: 50px;
+    border-radius: 0.25rem;
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+.users-option div:first-child{
+    color: #2290d9;
+}
+.users-option div:last-child{
+    color: #d22929;
+}
+
+
+.user_add_btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.user_add_btn button{
+    background-color: #2290d9;
+    color: rgb(220, 220, 220);
+    font-size: 14px;
+    border: 1px solid #6c757d;
+    width: 8rem;
+    padding: 10px 5px;
+    border-radius: 0.25rem;
+}
+
+.user_add_open{
+    display: block;
+}
+.user_add_close{
+    display: none;
+}
+
+.user_add form{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user_add .userAdd_title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.user_add form div{
+    font-size: 15px
+}
+
+.user_add form input{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    display: block;
+    border: 1px solid #6c757d;
+    width: 20rem;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+    color: white;
+}
+
+.user_add form button{
+    margin-top: 10px;
+    background-color: #343a40;
+    padding: 10px 50px;
+    border-radius: 0.25rem;
+    color: white;
+    transition: 0.2s;
+}
+
+.user_add form button:hover{
+    background-color: #565d63;
+}
+
+.user_add .userForm_close{
+    font-size: 25px;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user_add .userForm_close span{
+    cursor: pointer;
+}
+
+.user_btn_open{
+    display: block;
+}
+.user_btn_close{
+    display: none;
+}
+.user_edit_open{
+    display: block;
+}
+.user_edit_close{
+    display: none;
+}

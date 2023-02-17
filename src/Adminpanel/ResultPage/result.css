@@ -1,0 +1,65 @@
+.adminPanelPage{
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    background-color: #454d55;
+    font-family: sans-serif;
+}
+
+.adminPanelPageTitle{
+    margin-top: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 8px;
+    font-size: 28px;
+    color: #ffffff;
+}
+.resultBoard_boxs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.resultBoard_box{
+    border-radius: 0.25rem;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 16px;
+    padding: 8px;
+
+}
+.resultBoard_box i{
+    font-size: 30px;
+}
+.resulBoard_icon{
+    background-color: #3498db;
+    border-radius: 0.25rem;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultBoard_box_info{
+    font-size: 20px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.resultBoard_box_info div:last-child{
+padding-left: 15px;
+}
+.resultBoard_box_info div:last-child{
+    font-weight: 700;
+}
+
+@media (max-width:576px){
+    .adminPanelPage{
+        height: 100%;
+    }
+}
